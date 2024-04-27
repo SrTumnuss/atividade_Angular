@@ -1,0 +1,9 @@
+<h2>Listar de Pokemon</h2>
+
+<ul>
+  @for (item of pokemon; track $index){
+     <li>  {{item.id}} - {{item.name}} - {{item.url}} - {{item.imageUrl}}  </li>
+     <img src="{{item.imageUrl}}" alt="">
+  }
+</ul>
+

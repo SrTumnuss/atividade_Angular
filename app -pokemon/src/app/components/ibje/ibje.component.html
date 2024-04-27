@@ -1,0 +1,7 @@
+<h2>IBGE</h2>
+
+<ul>
+  @for (item of ibges; track $index){
+     <li>  {{item.id}} - {{item.nome}} - {{item.sigla}} </li>
+  }
+</ul>
